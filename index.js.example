@@ -1,0 +1,9 @@
+const app = require('./lib/application');
+const logger = require('./plugins/logger');
+const giftBomb = require('./plugins/giftBomb');
+
+app.init();
+
+app.use(logger);
+
+app.connect();

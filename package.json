@@ -1,0 +1,29 @@
+{
+  "name": "sb-sidecar",
+  "version": "1.0.0",
+  "description": "This project serves as a way to sanely integrate with Streamer.bot's awesome event and API interface.  It utilizes the Streamer.bot websocket server to listen for events and react to them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelegendtubaguy/sb-sidecar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelegendtubaguy/sb-sidecar/issues"
+  },
+  "homepage": "https://github.com/thelegendtubaguy/sb-sidecar#readme",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "ws": "^8.8.0"
+  }
+}
